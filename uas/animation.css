@@ -1,0 +1,40 @@
+/* Animasi untuk menyembunyikan menu */
+@keyframes hideMenu {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+  }
+  
+  /* Animasi untuk menampilkan logo */
+  @keyframes showLogo {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+
+  .menu-list:hover {
+    color: white; 
+    cursor: pointer; 
+}
+
+/* Keyframes untuk animasi */
+@keyframes scroll {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(46px);
+    }
+  }
+
